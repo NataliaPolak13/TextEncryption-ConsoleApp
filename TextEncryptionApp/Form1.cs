@@ -52,14 +52,11 @@ namespace TextEncryptionApp
             }
         }
 
-        private void firstTextBox_TextChanged(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void secondTextBox_TextChanged(object sender, EventArgs e)
-        {
-
+            toolTip1.Show("1. Type the text you want to encrypt in the first window.\n" +
+                        "2. Then click the \"Encrypt\" button.\n" +
+                        "3. If you want to decrypt the text, click the \"Decrypt\" button.", pictureBox2);
         }
     }
 }
