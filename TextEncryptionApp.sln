@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextEncryptionApp.Services", "TextEncryptionApp.Services\TextEncryptionApp.Services.csproj", "{709FCD31-2C83-4307-AEEC-4CA965AE7C06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextEncryptionApp", "TextEncryptionApp\TextEncryptionApp.csproj", "{CC9B35AD-58CC-49C2-99A9-3D6B6E7F18E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementy rozwiązania", "Elementy rozwiązania", "{E9CEBB92-621B-43F0-BA3D-E6A6F2C284D7}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\favicon.ico = ..\..\favicon.ico
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{709FCD31-2C83-4307-AEEC-4CA965AE7C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{709FCD31-2C83-4307-AEEC-4CA965AE7C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{709FCD31-2C83-4307-AEEC-4CA965AE7C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{709FCD31-2C83-4307-AEEC-4CA965AE7C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC9B35AD-58CC-49C2-99A9-3D6B6E7F18E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC9B35AD-58CC-49C2-99A9-3D6B6E7F18E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC9B35AD-58CC-49C2-99A9-3D6B6E7F18E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC9B35AD-58CC-49C2-99A9-3D6B6E7F18E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25C63DAE-613A-4B76-ADE6-4AD24594FBCA}
+	EndGlobalSection
+EndGlobal
